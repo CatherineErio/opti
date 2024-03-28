@@ -116,6 +116,12 @@ body {
   font-size: 16px;
   border-radius: 20px;
 }
+.contact1 {
+  background-color: #44444d;
+  padding: 38px 30px;
+  font-size: 16px;
+  border-radius: 20px;
+}
 .contact i {
   font-size: 30px;
   color: #ffff;
@@ -136,6 +142,26 @@ body {
   color: #cbfb45;
   margin-top: 20px;
 }
+.contact1 i {
+  font-size: 30px;
+  color: #ffff;
+  margin-bottom: 10px;
+}
+.contact1 h5 {
+  font-size: 20px;
+  margin: 0px 0px 10px;
+  color: #ffff;
+}
+.contact1 span {
+  font-size: 16px;
+  margin: 0px 0px 20px;
+  color: #ffff;
+}
+.contact1 p {
+  font-size: 16px;
+  color: #cbfb45;
+  margin-top: 20px;
+}
 .message h2 {
   color: #1d1d1f;
   margin: 0px 0px 15px;
@@ -144,8 +170,8 @@ body {
 }
 
 .arr img {
-  margin-bottom: -390px;
-  margin-left: 450px;
+  margin-bottom: -420px;
+  margin-left: 260px;
 }
 .arr {
   width: 10%;
