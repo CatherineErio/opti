@@ -22,7 +22,15 @@
     <link rel="stylesheet" href="contact.css" />
   </head>
   <body>
-    <header>
+    <header
+      style="
+        position: fixed;
+        top: 0;
+        width: 100%;
+
+        z-index: 1000;
+      "
+    >
       <div class="container">
         <div class="d-flex align-items-center justify-content-between">
           <img src="image/logoblack.png" alt="" />
@@ -45,16 +53,9 @@
                       <li>
                         <a class="dropdown-item" href="index.html">Action</a>
                       </li>
-                      <li>
-                        <a class="dropdown-item" href="#">Another action</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#"
-                          >Something else here</a
-                        >
-                      </li>
                     </ul>
                   </li>
+
                   <li class="nav-item">
                     <a class="nav-link link" href="#">About Us</a>
                   </li>
@@ -79,28 +80,6 @@
                       </li>
                     </ul>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle link"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      News
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li>
-                        <a class="dropdown-item" href="#">Another action</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#"
-                          >Something else here</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
 
                   <li class="nav-item">
                     <a class="nav-link link" aria-disabled="true">contacts</a>
@@ -110,7 +89,7 @@
             </div>
           </nav>
           <div>
-            <button class="free">Start Free Trial</button>
+            <button class="free">Request a Demo</button>
           </div>
         </div>
       </div>
